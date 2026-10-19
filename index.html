@@ -1,0 +1,42 @@
+<body>
+    
+<head>Formulario de contacto</head>
+<div id="contenedor">
+
+<form action="#" method="POST">
+  <div>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+  </div>
+
+  <div>
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" required>
+  </div>
+
+  <div>
+    <label for="mail">Correo electrónico:</label>
+    <input type="email" id="mail" name="mail" required>
+  </div>
+
+  <div>
+    <label for="asunto">Asunto:</label>
+    <input type="text" id="asunto" name="asunto" required>
+  </div>
+
+  <div>
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+  </div>
+
+    <!-- Widget de reCAPTCHA -->
+    <div class="g-recaptcha" data-sitekey="6Lf_cPctAAAAAK2kURQy0MRAPMdxi-qxQg5-70Mu"></div>
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=KEY_ID"></script>
+    ...
+  
+  <button type="submit">Enviar</button>
+</form>
+
+</div>
+
+</body>
