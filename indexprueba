@@ -34,7 +34,7 @@
 
   <!-- 2. TU CASILLA DE RECAPTCHA (Ya tiene tu clave del sitio configurada) -->
   <div>
-    <div class="g-recaptcha" data-sitekey="6Lc2RfktAAAAAELXKtEBUGU5rbxdtk9C5_HdIcP4"></div>
+    <div class="g-recaptcha" data-sitekey="6LezSvktAAAAAIVMX4hEo4jAEm7zFUMmK32r-A4y"></div>
   </div>
   
   <br>
